@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context=".InputTime_Activity">
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="243dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.loper7.date_time_picker.DateTimePicker
+            android:id="@+id/dateTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showLabel="true"
+            app:textSize="16sp"
+            app:themeColor="#FF8080" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="取消" />
+
+            <Button
+                android:id="@+id/buttonok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="确定"
+                android:textColor="#03A9F4"
+                android:textColorHint="#2196F3"
+                android:textColorLink="#673AB7" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
