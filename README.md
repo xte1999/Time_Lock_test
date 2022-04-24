@@ -1,6 +1,6 @@
 # Time_Lock_test
 1.在软件打开过程中会有APPID确认，只有符合要求的ID才能打开app
-![QQ图片20220424130354](https://user-images.githubusercontent.com/50430387/164957639-6fbea5f2-10a8-4662-b641-6f443ed38ab2.jpg width="300")
+<img src="https://user-images.githubusercontent.com/50430387/164957639-6fbea5f2-10a8-4662-b641-6f443ed38ab2.jpg width="300"">
 
 
 2.app的目的是存储密码，在时间达到后展示密码打开界面如下
