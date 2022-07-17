@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
                     if(DeadlineAarry[index]<nowAarry[index])
                     {
                         var editText_1 = findViewById<android.widget.TextView>(R.id.editText_1)
-                        editText_1.setText("4207392146518436")
+                        editText_1.setText("1")
                         IF_time_reach = true
                         break
                     }
